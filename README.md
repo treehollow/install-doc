@@ -13,7 +13,7 @@
 
 ## 1 对技术人员的要求
 
-树洞的技术栈目前已经较为复杂，后端使用的是Linux+Nginx+MySQL+Redis+Go；Web前端使用的是React；Android前端主要是Kotlin；iOS前端是SwiftUI。如果要完成树洞的搭建，技术人员至少需要掌握：
+树洞的技术栈目前已经较为复杂，后端使用的是Linux+Nginx+MySQL+Redis+Go；Web前端使用的是React；Android前端主要是Kotlin；iOS前端是SwiftUI。如果要完成树洞后端的搭建，技术人员至少需要掌握：
 
 - Linux的基本使用方法和常用bash命令，比如vim、top、ps、tmux
 - 基础网络协议知识，如HTTP协议等
