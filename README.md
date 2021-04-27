@@ -118,7 +118,7 @@ Nginx Amplify是一个可以监控服务器健康状态的免费平台，详细�
 
 由于服务器只和CDN边缘节点进行网络通信，获取客户IP时就会有难度。还好，几乎所有CDN都会在HTTP的**X-Forwarded-For** header中转发客户IP。请参考：https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-Cloudflare-handle-HTTP-Request-headers-
 
-但是我们不能完全信任X-Forwarded-For的结果，因为如果攻击者构造一个含X-Forwarded-For的包，就可以达到IP欺骗的效果。为此，Nginx的比较新的版本都带里一个叫ngx_http_realip_module的模块，只要将将CDN的IP列表添加进Nginx信任的列表里，就可以正确解析出客户IP。参考：https://cloud.tencent.com/developer/article/1521273
+但是我们不能完全信任X-Forwarded-For的结果，因为如果攻击者构造一个含X-Forwarded-For的包，就可以达到IP欺骗的效果。为此，Nginx的比较新的版本里都带一个叫ngx_http_realip_module的模块，只要将CDN的IP列表添加进Nginx信任的列表里，就可以正确解析出客户IP。参考：https://cloud.tencent.com/developer/article/1521273
 
 我们在此提供一个脚本，以Cloudflare CDN为例，生成Nginx所需要的配置文件：
 
