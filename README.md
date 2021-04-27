@@ -96,6 +96,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-secure-redis-cen
 
 https://golang.org/doc/install
 
+【注意】：MySQL的中文搜索引擎分词在默认情况下有bug，请参考https://github.com/treehollow/treehollow-backend/issues/43 解决
+
 ### 第五步（可选）：安装并配置Nginx amplify
 
 Nginx Amplify是一个可以监控服务器健康状态的免费平台，详细介绍和安装方法请见https://amplify.nginx.com/
