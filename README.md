@@ -229,7 +229,7 @@ T大树洞使用GeoIP库进行风控等操作，这里你如果不知道用什�
 go install ./...
 ```
 
-这时会在`$GOROOT/bin`生成几个可执行文件，有用的几个分别是：
+这时会在`$GOPATH/bin`生成几个可执行文件，有用的几个分别是：
 
 `treehollow-v3-push-api`: 用于处理Android和iOS消息推送服务的可执行程序
 
